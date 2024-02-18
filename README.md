@@ -1,17 +1,18 @@
 # Clasificación de Residuos con Redes Neuronales
 
-El proyecto de Redes Neuronales tiene como objetivo clasificar imágenes de residuos en dos categorías: orgánico e inorgánico. Se desarrollaron dos enfoques distintos utilizando redes neuronales convolucionales (CNN) y redes neuronales multicapa (MLP).
+Este proyecto tiene como objetivo clasificar imágenes de residuos en dos categorías: orgánico e inorgánico, utilizando redes neuronales convolucionales (CNN) y redes neuronales multicapa (MLP).
 
-Para el primer enfoque, se implementó un modelo de MLP que procesa directamente los píxeles de las imágenes de residuos para realizar la clasificación.
+El dataset de las imágenes de residuos fue extraído de Kaggle y se encuentra disponible en el siguiente enlace: [Waste Classification data](https://www.kaggle.com/datasets/techsash/waste-classification-data).
 
-En el segundo enfoque, se utilizó una red neuronal con una capa preentrenada, que aprovecha las características aprendidas de un conjunto de datos previo. Esta red incluye dos capas convolucionales para extraer características relevantes de las imágenes antes de realizar la clasificación.
+El proyecto incluye dos enfoques diferentes:
+- **Modelo MLP**: Un modelo de redes neuronales multicapa que procesa directamente los píxeles de las imágenes para la clasificación.
+- **Capa preentrenada**: Una red neuronal que utiliza una capa preentrenada con dos convoluciones para extraer características relevantes de las imágenes antes de realizar la clasificación.
 
-El desarrollo y los resultados de ambos enfoques se encuentran detallados en dos cuadernos de Google Colab:
+Los detalles sobre el desarrollo y los resultados de cada enfoque se encuentran en los siguientes cuadernos de Google Colab:
+- [Clasificación de residuos utilizando un modelo MLP](https://colab.research.google.com/drive/1VMosX6FPlrNgzBQQVq0XvcOV2rAcwApA?usp=sharing)
+- [Clasificación de residuos utilizando una capa preentrenada](https://colab.research.google.com/drive/1UFiBd_eHctF0RW7o9af2QYFCiqI58s5J?usp=sharing)
 
-1. [Clasificación de residuos utilizando un modelo MLP](https://colab.research.google.com/drive/1VMosX6FPlrNgzBQQVq0XvcOV2rAcwApA?usp=sharing)
+Este proyecto representa un avance en la aplicación de técnicas de aprendizaje profundo para resolver problemas de clasificación de imágenes en el ámbito de la gestión de residuos.
 
 
-2. [Clasificación de residuos utilizando una capa preentrenada](https://colab.research.google.com/drive/1UFiBd_eHctF0RW7o9af2QYFCiqI58s5J?usp=sharing)
 
-
-Estos cuadernos detallan el proceso de carga de datos, la construcción y entrenamiento de los modelos, así como el análisis de los resultados obtenidos. Este proyecto representa un paso hacia adelante en la aplicación de técnicas de aprendizaje profundo para resolver problemas de clasificación de imágenes en el ámbito de la gestión de residuos.
