@@ -1,4 +1,5 @@
 #Clasificación de imágenes de residuos
+
 El proyecto de Redes Neuronales tiene como objetivo clasificar imágenes de residuos en dos categorías: orgánico e inorgánico. Se desarrollaron dos enfoques distintos utilizando redes neuronales convolucionales (CNN) y redes neuronales multicapa (MLP).
 
 Para el primer enfoque, se implementó un modelo de MLP que procesa directamente los píxeles de las imágenes de residuos para realizar la clasificación.
